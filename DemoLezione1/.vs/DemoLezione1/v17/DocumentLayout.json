@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00F27912-A604-4B72-B7AC-AA6E397A4F42}|TestProject1\\TestProject1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\testproject1\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F27912-A604-4B72-B7AC-AA6E397A4F42}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00F27912-A604-4B72-B7AC-AA6E397A4F42}|TestProject1\\TestProject1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F27912-A604-4B72-B7AC-AA6E397A4F42}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\welcomemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\welcomemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\iclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\iclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\imynotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\imynotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\demolezione1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\demolezione1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|c:\\users\\gianlucaconsoli\\onedrive - newteam s.r.l\\documenti\\projects\\demolezione1\\demolezione1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51D0EB63-4C4D-4D2C-8BD1-AA5CA4033079}|DemoLezione1\\DemoLezione1.csproj|solutionrelative:demolezione1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 262,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\TestProject1\\Test1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Test1.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\TestProject1\\Test1.cs",
+              "RelativeToolTip": "TestProject1\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:36:41.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\TestProject1\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "TestProject1\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\TestProject1\\MSTestSettings.cs",
+              "RelativeToolTip": "TestProject1\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:36:32.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IClock.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\IClock.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\IClock.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\IClock.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\IClock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:29:45.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomeMessage.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\WelcomeMessage.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\WelcomeMessage.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\WelcomeMessage.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\WelcomeMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:26:50.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMyNotification.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\IMyNotification.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\IMyNotification.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\IMyNotification.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\IMyNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:55:47.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailNotification.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\EmailNotification.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\EmailNotification.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\EmailNotification.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\EmailNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:49:18.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Program.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Program.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Program.cs",
+              "RelativeToolTip": "DemoLezione1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:33:26.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "A.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\A.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\A.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\A.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\A.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:36:10.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "B.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\B.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\B.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\B.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\B.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:36:55.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\GlobalUsing.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:50:34.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "DemoLezione1\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Models\\Student.cs",
+              "RelativeToolTip": "DemoLezione1\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:47:41.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DemoLezione1.csproj",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj",
+              "RelativeDocumentMoniker": "DemoLezione1\\DemoLezione1.csproj",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj",
+              "RelativeToolTip": "DemoLezione1\\DemoLezione1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T13:46:58.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DemoLezione1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DemoLezione1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-13T13:36:15.121Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
