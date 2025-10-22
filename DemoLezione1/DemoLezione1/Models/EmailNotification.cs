@@ -4,14 +4,23 @@ public class EmailNotification : IMyNotification
 {
     public string SendNotification(string to)
     {
-        return $"Email sent to {to}!";
+        return "Email notification sent.";
     }
 }
 
-public class WhatsAppNotification : IMyNotification
+public class SmsNotification : IMyNotification
 {
     public string SendNotification(string to)
     {
-        return $"WhatsApp message sent to {to}!";
+        return "SMS notification sent.";
     }
 }
+
+public class  WhatsAppNotification : IMyNotification
+{
+    public string SendNotification(string to)
+    {
+        return "WhatsApp notification sent.";
+    }
+}
+

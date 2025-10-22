@@ -1,33 +1,86 @@
-//using DemoLezione1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
-// è come se fosse un cesto di oggetti
-// il problema del Singleton è che non va bene per i siti web, perché l'instanza è sempre la stessa
-builder.Services.AddSingleton<IMyNotification, EmailNotification>();
-// addTransient crea una nuova istanza ogni volta che viene richiesta
-builder.Services.AddTransient<B>();
-// addScoped crea una nuova istanza per ogni richiesta HTTP
-builder.Services.AddScoped<A>();
-builder.Services.AddScoped<IClock, SystemClock>();
-builder.Services.AddScoped<WelcomeMessage>();
+//builder.Services.AddSingleton<IMyNotification, EmailNotification>();
+//builder.Services.AddTransient<B>();
+//builder.Services.AddScoped<A>();
+//builder.Services.AddScoped<IClock, SystemClock>();
+//builder.Services.AddScoped<WelcomeMessage>();
+//builder.Services.Configure<PositionOptions>
+//    (builder.Configuration.GetSection(PositionOptions.Position));
 
 
 var app = builder.Build();
 
-var student = new Student() { Id = 1 };
-Student student2 = new() { Id = 2 };
-Student student3 = new Student { Id = 3 };
+app.UseStaticFiles();
 
-app.MapGet("/", 
-    (IMyNotification notification, A a, WelcomeMessage w) => {
-        //var b = new B();
-        //var email = new WhatsAppNotification();
-        //var a = new A(b, notification);
-        var message = w.Welcome() + a.DoSomething() + " Hello World!";
-        return message;
+// Configure the HTTP request pipeline.
+app.UseWhen(context => context.Request.Path.StartsWithSegments("/admin"), 
+    appBuilder =>
+    {
+        appBuilder.Use(async (context, next) =>
+        {
+            app.Logger.LogInformation("Admin Area Middleware - Before Next");
+            await next.Invoke();
+            app.Logger.LogInformation("Admin Area Middleware - After Next");
+        });
     }
 );
 
+app.Use(async (context, next) => {
+    app.Logger.LogInformation("First Middleware");
+    app.Logger.LogInformation("Request Incoming: " + context.Request.Method + " " + context.Request.Path);
+    await next.Invoke();
+});
+
+app.UseMiddleware<RequestLoggingMiddleware>();
+
+//app.Use(async (context, next) =>
+//{
+//    var watch = System.Diagnostics.Stopwatch.StartNew();
+//    await Task.Delay(1000); // Simula un'elaborazione
+//    await next.Invoke();
+//    watch.Stop();
+//    var elapsedMs = watch.ElapsedMilliseconds;
+//    // Aggiunge l'intestazione personalizzata alla risposta
+//    context.Response.Headers.Add("X-Response-Time-Ms", elapsedMs.ToString());
+//    await context.Response.WriteAsync($"\nResponse Time: {elapsedMs} ms");
+//});
+
+#region oldcode
+//app.MapGet("/", 
+//    (IMyNotification notification, A a, WelcomeMessage w) => {
+//        // var b = new B();
+//        //var smsNotification = new SmsNotification();    
+//        //var a = new A(b,notification);
+//        var message = w.Welcome() + ", " +   a.DoSomething() + " Hello World!";
+//        return message;
+//    }
+//);
+
+//app.MapGet("/", (IConfiguration configuration) =>
+//{
+//    // var result = configuration["Chiave"];
+//    //var result = configuration["ChiaveComplessa:B:C:D"];
+
+//    //var positionOptions = new PositionOptions();
+//    //configuration.GetSection(PositionOptions.Position).Bind(positionOptions);
+//    //var result = positionOptions.Title + " " + positionOptions.Name;
+//    //return result;
+
+//    //return result ?? "Non ho trovato la chiave";
+//});
+
+//app.MapGet("/", (IOptions<PositionOptions> positionOptions) => { 
+//      return positionOptions.Value.Title + " " + positionOptions.Value.Name;
+//});
+#endregion
+
+app.Run(async context => { 
+    app.Logger.LogInformation("Second Middleware");
+    await context.Response.WriteAsync("Hello World!");
+});
+
+
 app.Run();
+

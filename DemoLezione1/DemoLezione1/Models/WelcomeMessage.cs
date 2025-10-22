@@ -2,22 +2,21 @@
 
 public class WelcomeMessage
 {
-    private readonly IClock _clock;
+    private readonly IClock clock;
 
     public WelcomeMessage(IClock clock)
     {
-        _clock = clock;
+        this.clock = clock;
     }
 
-    public string Welcome()
-    {
-        if (_clock.Now.Hour < 12)
-        {
+    public string Welcome() { 
+       if(clock.Now.Hour < 12)
+       {
             return "Good morning!";
-        }
-        else
-        {
+       }
+       else
+       {
             return "Good afternoon!";
-        }
+       }
     }
 }

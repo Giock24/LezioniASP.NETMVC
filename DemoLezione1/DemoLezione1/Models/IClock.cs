@@ -5,9 +5,9 @@ public interface IClock
     DateTime Now { get; }
 }
 
-public class  MorningClock : IClock
+public class MorningClock : IClock
 {
-    public DateTime Now => new DateTime(2000, 1, 1, 10, 0, 0);
+    public DateTime Now => new DateTime(2000,1,1, 10,0,0);
 }
 
 public class AfternoonClock : IClock

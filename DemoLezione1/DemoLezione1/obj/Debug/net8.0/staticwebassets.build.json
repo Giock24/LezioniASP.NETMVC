@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "qNAR+q65y7AxV8AcxT5d4tuFHXTcpp8yeIOgvhHKizs=",
+  "Hash": "bkCrPASnBatiVNYT7MFjXg5kc3+upf+b3a2c11ZTusI=",
   "Source": "DemoLezione1",
   "BasePath": "_content/DemoLezione1",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoLezione1\\wwwroot",
+      "Source": "DemoLezione1",
+      "ContentRoot": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Desktop\\corsoaspnetcore2025\\Lezione1\\DemoLezione1\\DemoLezione1\\wwwroot\\",
+      "BasePath": "_content/DemoLezione1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Desktop\\corsoaspnetcore2025\\Lezione1\\DemoLezione1\\DemoLezione1\\wwwroot\\Example.png",
+      "SourceId": "DemoLezione1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Desktop\\corsoaspnetcore2025\\Lezione1\\DemoLezione1\\DemoLezione1\\wwwroot\\",
+      "BasePath": "_content/DemoLezione1",
+      "RelativePath": "Example#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ii0e02mj0",
+      "Integrity": "q8uh9/aNZNhLVi8iCTdiT2LUcIpEuHrpXXUKB2hgUrE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Example.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Example.3ii0e02mj0.png",
+      "AssetFile": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Desktop\\corsoaspnetcore2025\\Lezione1\\DemoLezione1\\DemoLezione1\\wwwroot\\Example.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8uh9/aNZNhLVi8iCTdiT2LUcIpEuHrpXXUKB2hgUrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Oct 2025 08:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ii0e02mj0"
+        },
+        {
+          "Name": "label",
+          "Value": "Example.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8uh9/aNZNhLVi8iCTdiT2LUcIpEuHrpXXUKB2hgUrE="
+        }
+      ]
+    },
+    {
+      "Route": "Example.png",
+      "AssetFile": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Desktop\\corsoaspnetcore2025\\Lezione1\\DemoLezione1\\DemoLezione1\\wwwroot\\Example.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8uh9/aNZNhLVi8iCTdiT2LUcIpEuHrpXXUKB2hgUrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Oct 2025 08:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8uh9/aNZNhLVi8iCTdiT2LUcIpEuHrpXXUKB2hgUrE="
+        }
+      ]
+    }
+  ]
 }

@@ -2,20 +2,21 @@
 
 public class A
 {
+    private readonly B b;
+    private readonly IMyNotification email;
 
-    private readonly B _b;
-    // in questo modo non c'è dipendenza diretta dalla classe concreta
-    private readonly IMyNotification _email;
-
-    public A (B b, IMyNotification email)
+    public A(B b, IMyNotification email)
     {
-        _b = b;
-        _email = email;
+        this.b = b;
+        this.email = email;
     }
+
     public string DoSomething()
     {
-        var messageFromB = _b.DoSomethingElse();
-        _email.SendNotification("Gianluca");
-        return $"Hello from A: {messageFromB}";
-    }
+
+       // var b = new B();
+        var message = b.DoSomething();
+        email.SendNotification("");
+        return $"Hello from class A: {message}";
+    }   
 }

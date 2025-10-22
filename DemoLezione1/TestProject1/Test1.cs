@@ -6,23 +6,24 @@ namespace TestProject1
     public sealed class Test1
     {
         [TestMethod]
-        public void TestiamoIlMessaggioDelMattino()
+        public void TestiamoCheAlMattinoIlMessaggioEBuongiorno()
         {
-            var w = new WelcomeMessage(new MorningClock());
-
-            var excpected = "xGood morning!";
-            var calculated = w.Welcome();
-            Assert.AreEqual(excpected, calculated);
+            var clock = new MorningClock();
+            var w = new WelcomeMessage(clock);
+            var expected = "Good morning!";
+            var calculated = w.Welcome();   
+            Assert.AreEqual(expected, calculated);
         }
 
         [TestMethod]
-        public void TestiamoIlMessaggioDelPomeriggio()
+        public void TestiamoCheAlPomeriggioIlMessaggioEBuonPomeriggio()
         {
-            var w = new WelcomeMessage(new AfternoonClock());
-
-            var excpected = "Good afternoon!";
+            var clock = new AfternoonClock();
+            var w = new WelcomeMessage(clock);
+            var expected = "Good afternoon!";
             var calculated = w.Welcome();
-            Assert.AreEqual(excpected, calculated);
+            Assert.AreEqual(expected, calculated);
         }
+
     }
 }

@@ -1678,11 +1678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\TestProject1\\TestProject1.csproj",
+      "projectPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\TestProject1\\TestProject1.csproj",
       "packagesPath": "C:\\Users\\GianlucaConsoli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
@@ -1707,8 +1707,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj": {
-              "projectPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj"
+            "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj": {
+              "projectPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj"
             }
           }
         }
@@ -1757,5 +1757,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Si è verificato un errore durante il recupero dei dati sulla vulnerabilità del pacchetto: Non è possibile caricare l'indice del servizio per l'origine https://nuget.devexpress.com/buig2y1M36FxddaweLy43PbiEjjJlJ4orQUnTerlFFwj2v1njY/api/v3/index.json."
+    }
+  ]
 }

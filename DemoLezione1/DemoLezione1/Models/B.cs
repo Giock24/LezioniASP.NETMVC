@@ -2,8 +2,8 @@
 
 public class B
 {
-    public string DoSomethingElse()
+    public string DoSomething()
     {
-        return "Hello from B";
+        return "Hello from class B";
     }
 }

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj",
+      "projectUniqueName": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj",
       "projectName": "DemoLezione1",
-      "projectPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj",
+      "projectPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\DemoLezione1\\DemoLezione1.csproj",
       "packagesPath": "C:\\Users\\GianlucaConsoli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\DemoLezione1\\DemoLezione1\\obj\\",
+      "outputPath": "C:\\Users\\GianlucaConsoli\\OneDrive - NEWTEAM S.R.L\\Documenti\\Projects\\LezioniASP.NETMVC\\DemoLezione1\\DemoLezione1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
