@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoMVC.Core.Interfaces;
 
-public interface IGenericEntity<T>
+public interface IWelcome
 {
-    T Id { get; set; }
-    public string Nome { get; set; }
-    public string Cognome { get; set; }
+    string WelcomeMessage();
 }

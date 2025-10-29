@@ -1,7 +1,16 @@
+using DemoMVC.Core.Entities;
+using DemoMVC.Core.Interfaces;
+using DemoMVC.Infrastructure.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IStudentsData, MockStudentsService>();
+builder.Services.AddScoped<IWelcome, WelcomeStaticClass>();
+builder.Services.AddScoped<IMenu, MenuService>();
+builder.Services.AddScoped<IGenericData<Student>, GenericMockData<Student>>();
+builder.Services.AddScoped<IGenericData<Teacher>, GenericMockData<Teacher>>();
 
 var app = builder.Build();
 

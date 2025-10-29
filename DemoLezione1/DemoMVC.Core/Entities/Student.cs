@@ -11,7 +11,7 @@ public class Student : IGenericEntity<int>
     public required string Matricola { get; set; }
     public string? Nome { get; set; }
     public string? Cognome { get; set; }
-    public DateTime DataNascita { get; set; }
+    public DateTime? DataNascita { get; set; }
     public string? Id_CAP { get; set; }
     public string? Indirizzo { get; set; }
     public string? NumeroCivico { get; set; }
