@@ -1,31 +1,60 @@
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\appsettings.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.staticwebassets.endpoints.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.exe
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.deps.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.runtimeconfig.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.pdb
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.AssemblyInfoInputs.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.AssemblyInfo.cs
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.csproj.CoreCompileInputs.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.sourcelink.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\scopedcss\bundle\DemoLezione1.styles.css
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets\msbuild.DemoLezione1.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets\msbuild.DemoLezione1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets\msbuild.build.DemoLezione1.props
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DemoLezione1.props
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DemoLezione1.props
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\refint\DemoLezione1.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.pdb
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.genruntimeconfig.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\ref\DemoLezione1.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.staticwebassets.runtime.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\appsettings.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.staticwebassets.endpoints.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.exe
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.deps.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.runtimeconfig.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.pdb
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.AssemblyInfoInputs.cache
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.AssemblyInfo.cs
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.csproj.CoreCompileInputs.cache
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.sourcelink.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\scopedcss\bundle\DemoLezione1.styles.css
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\refint\DemoLezione1.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.pdb
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.genruntimeconfig.cache
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\obj\Debug\net8.0\ref\DemoLezione1.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.staticwebassets.runtime.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\appsettings.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.staticwebassets.runtime.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.staticwebassets.endpoints.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.exe
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.deps.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.runtimeconfig.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.dll
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\bin\Debug\net8.0\DemoLezione1.pdb
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.AssemblyInfoInputs.cache
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.AssemblyInfo.cs
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.csproj.CoreCompileInputs.cache
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.sourcelink.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\scopedcss\bundle\DemoLezione1.styles.css
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.dll
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\refint\DemoLezione1.dll
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.pdb
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\DemoLezione1.genruntimeconfig.cache
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoLezione1\obj\Debug\net8.0\ref\DemoLezione1.dll

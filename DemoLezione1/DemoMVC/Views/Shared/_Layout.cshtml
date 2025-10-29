@@ -36,13 +36,10 @@
                             <a class="nav-link text-dark" asp-controller="Students" asp-action="Index">Students</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Teachers" asp-action="Index">Teachers</a>
-                        </li>
-                        <li class="nav-item">
                             <span class="nav-link text-dark">Numero totale studenti: @menuService.GetMenuViewModel().NumeroTotaleStudenti</span>
                         </li>
                         <li class="nav-item">
-                            <span class="nav-link text-dark">Ultimo studente inserito: @menuService.GetMenuViewModel().NomeCognomeUltimoInserito</span>
+                            <span class="nav-link text-dark">Ultimo studente aggiunto: @menuService.GetMenuViewModel().NomeCognomeUltimoInserito</span>
                         </li>
                     </ul>
                 </div>
@@ -51,7 +48,6 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            <!-- Qui si incastra la view -->
             @RenderBody()
         </main>
     </div>

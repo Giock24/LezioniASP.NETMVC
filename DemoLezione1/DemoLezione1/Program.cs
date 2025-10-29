@@ -1,5 +1,58 @@
+using DemoLezione1;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var app = builder.Build();
+
+app.UseStaticFiles();
+
+app.UseWhen( context => context.Request.Path.StartsWithSegments("/admin"),
+    appBuilder => 
+    {
+        appBuilder.Use(async(context, next) => 
+        {
+            app.Logger.LogInformation("admin before");
+            await next.Invoke();
+            app.Logger.LogInformation("admin before");
+        });
+    });
+
+app.Use(async (context, next) => 
+{
+    app.Logger.LogInformation("First Middelware");
+    app.Logger.LogInformation("Request Incoming:"+context.Request.Method+" "+context.Request.Path);
+    await next.Invoke();
+});
+
+app.Use(async (context, next) =>
+{
+    app.Logger.LogInformation("Second Middelware");
+    await next.Invoke();
+});
+
+app.UseMiddleware<RequestLoggingMiddleware>();
+
+//app.Use(async (context, next) =>
+//{
+//    var watch = System.Diagnostics.Stopwatch.StartNew();
+//    await next.Invoke();
+//    watch.Stop();
+//    var elapsedMs = watch.ElapsedMilliseconds;
+//    context.Response.Headers.Add("X-Response-Time-ms", elapsedMs.ToString());
+//    //await context.Response.WriteAsync("Hello world2!");
+//});
+
+app.Run(async context =>
+{
+    await context.Response.WriteAsync("Hello world!");
+});
+
+app.Run();
+
+
+#region Old code
+
 // Add services to the container.
 //builder.Services.AddSingleton<IMyNotification, EmailNotification>();
 //builder.Services.AddTransient<B>();
@@ -9,45 +62,6 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Services.Configure<PositionOptions>
 //    (builder.Configuration.GetSection(PositionOptions.Position));
 
-
-var app = builder.Build();
-
-app.UseStaticFiles();
-
-// Configure the HTTP request pipeline.
-app.UseWhen(context => context.Request.Path.StartsWithSegments("/admin"), 
-    appBuilder =>
-    {
-        appBuilder.Use(async (context, next) =>
-        {
-            app.Logger.LogInformation("Admin Area Middleware - Before Next");
-            await next.Invoke();
-            app.Logger.LogInformation("Admin Area Middleware - After Next");
-        });
-    }
-);
-
-app.Use(async (context, next) => {
-    app.Logger.LogInformation("First Middleware");
-    app.Logger.LogInformation("Request Incoming: " + context.Request.Method + " " + context.Request.Path);
-    await next.Invoke();
-});
-
-app.UseMiddleware<RequestLoggingMiddleware>();
-
-//app.Use(async (context, next) =>
-//{
-//    var watch = System.Diagnostics.Stopwatch.StartNew();
-//    await Task.Delay(1000); // Simula un'elaborazione
-//    await next.Invoke();
-//    watch.Stop();
-//    var elapsedMs = watch.ElapsedMilliseconds;
-//    // Aggiunge l'intestazione personalizzata alla risposta
-//    context.Response.Headers.Add("X-Response-Time-Ms", elapsedMs.ToString());
-//    await context.Response.WriteAsync($"\nResponse Time: {elapsedMs} ms");
-//});
-
-#region oldcode
 //app.MapGet("/", 
 //    (IMyNotification notification, A a, WelcomeMessage w) => {
 //        // var b = new B();
@@ -74,13 +88,5 @@ app.UseMiddleware<RequestLoggingMiddleware>();
 //app.MapGet("/", (IOptions<PositionOptions> positionOptions) => { 
 //      return positionOptions.Value.Title + " " + positionOptions.Value.Name;
 //});
+
 #endregion
-
-app.Run(async context => { 
-    app.Logger.LogInformation("Second Middleware");
-    await context.Response.WriteAsync("Hello World!");
-});
-
-
-app.Run();
-

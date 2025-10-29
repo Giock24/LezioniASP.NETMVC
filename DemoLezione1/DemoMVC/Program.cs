@@ -27,12 +27,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// app.UseAuthorization();
-
-//app.MapControllerRoute(
-//    name: "cucina",
-//    pattern: "cucina/{name}/",
-//    defaults: new { controller = "Cucina", action = "Ricerca" });
+//app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",

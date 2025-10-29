@@ -1,24 +1,35 @@
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.deps.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.pdb
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfoInputs.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfo.cs
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.csproj.CoreCompileInputs.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.sourcelink.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\refint\DemoMVC.Core.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.pdb
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Desktop\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\ref\DemoMVC.Core.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.deps.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.pdb
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfoInputs.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfo.cs
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.csproj.CoreCompileInputs.cache
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.sourcelink.json
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\refint\DemoMVC.Core.dll
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.pdb
-C:\Users\GianlucaConsoli\OneDrive - NEWTEAM S.R.L\Documenti\Projects\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\ref\DemoMVC.Core.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.deps.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.pdb
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfoInputs.cache
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfo.cs
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.csproj.CoreCompileInputs.cache
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.sourcelink.json
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\refint\DemoMVC.Core.dll
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.pdb
+C:\Users\FabioConsalici\source\repos\corsoaspnetcore2025\Lezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\ref\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.deps.json
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.pdb
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfoInputs.cache
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfo.cs
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.csproj.CoreCompileInputs.cache
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\refint\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.pdb
+C:\Users\AndreaFabbri\source\repos\Corso Core\Lezione 3\DemoLezione1\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\ref\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.deps.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\bin\Debug\net8.0\DemoMVC.Core.pdb
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfoInputs.cache
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.AssemblyInfo.cs
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.csproj.CoreCompileInputs.cache
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.sourcelink.json
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\refint\DemoMVC.Core.dll
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\DemoMVC.Core.pdb
+C:\Users\AndreaFabbri\source\repos\LezioniASP.NETMVC\DemoLezione1\DemoMVC.Core\obj\Debug\net8.0\ref\DemoMVC.Core.dll

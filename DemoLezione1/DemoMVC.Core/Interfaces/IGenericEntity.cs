@@ -9,6 +9,8 @@ namespace DemoMVC.Core.Interfaces;
 public interface IGenericEntity<T>
 {
     T Id { get; set; }
-    public string Nome { get; set; }
-    public string Cognome { get; set; }
+
+    string Nome { get; set; }
+
+    string Cognome { get; set; }
 }
