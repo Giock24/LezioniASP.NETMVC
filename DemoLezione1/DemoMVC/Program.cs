@@ -10,6 +10,9 @@ builder.Services.AddScoped<IStudentsData, MockStudentsService>();
 builder.Services.AddScoped<IWelcome, WelcomeStaticClass>();
 builder.Services.AddScoped<IMenu, MenuService>();
 builder.Services.AddScoped<IGenericData<Student, int>, StudentService>();
+builder.Services.AddScoped<IGenericData<Teacher, int>, TeacherService>();
+builder.Services.AddScoped<IGenericData<Fattura, Guid>, FattureService>();
+builder.Services.AddScoped<ISpecialData, MockSpecialData>();
 //builder.Services.AddScoped<IGenericData<Student>, GenericMockData<Student>>();
 //builder.Services.AddScoped<IGenericData<Teacher>, GenericMockData<Teacher>>();
 

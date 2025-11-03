@@ -5,6 +5,7 @@
 
 using DemoMVC.Core.Entities;
 using DemoMVC.Core.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DemoMVC.Controllers;
 
@@ -14,7 +15,13 @@ public class StudentsController : BaseCRUDController<Student, int>
     {
     }
 
-    //protected override Task<List<Student>> Index()
+    public JsonResult GetJSon()
+    {
+        return new JsonResult(new
+        {
+            Saluto = "Ciaone"
+        });
+    }
 }
 
 //public class StudentsController : Controller

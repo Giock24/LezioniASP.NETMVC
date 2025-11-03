@@ -43,19 +43,51 @@ public class StudentService : IGenericData<Student, int>
                 CodiceFiscale = "FBBNFGTTYHHFD"
             }
         };
-    public Task CreateAsync(Student item)
+    public async Task CreateAsync(Student item)
     {
-        throw new NotImplementedException();
+        await Task.Delay(1000);
+
+        if (list.Count() > 0)
+        {
+            item.Id = list.Max(x => x.Id) + 1;
+        }
+        else
+        {
+            item.Id = 1;
+        }
+
+        list.Add(item);
     }
 
-    public Task DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
-        throw new NotImplementedException();
+        await Task.Delay(1000);
+
+        var student = list.Find(x => x.Id == id);
+
+        if (student != null)
+        {
+            list.Remove(student);
+        }
     }
 
-    public Task EditAsync(Student item)
+    public async Task EditAsync(Student item)
     {
-        throw new NotImplementedException();
+        await Task.Delay(1000);
+
+        var studentDatabase = list.Find(x => x.Id == item.Id);
+
+        if (studentDatabase != null)
+        {
+            studentDatabase.Nome = item.Nome;
+            studentDatabase.Cognome = item.Cognome;
+            studentDatabase.CodiceFiscale = item.CodiceFiscale;
+
+            if (item.Indirizzo != null)
+            {
+                studentDatabase.Indirizzo = item.Indirizzo;
+            }
+        }
     }
 
     public async Task<IEnumerable<Student>> GetAllAsync()
@@ -64,8 +96,10 @@ public class StudentService : IGenericData<Student, int>
         return list;
     }
 
-    public Task<Student?> GetByIdAsync(int id)
+    public async Task<Student?> GetByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        await Task.Delay(1000);
+
+        return list.Find(x => x.Id == id);
     }
 }

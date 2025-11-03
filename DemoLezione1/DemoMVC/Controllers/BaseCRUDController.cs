@@ -3,15 +3,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DemoMVC.Controllers;
 
-public abstract class BaseCRUDController<TEntity, TKey> : Controller where TEntity : class, IGenericEntity<TKey>, new()
+public abstract class BaseCRUDController<TEntity, TKey> : Controller where TEntity : class, IEntity<TKey>, new()
 {
     protected readonly IGenericData<TEntity, TKey> repository;
     protected virtual string ViewPrefix => $"Views/{typeof(TEntity).Name}s";
     protected virtual string IndexView => $"Index";
-    protected virtual string DetailsView => $"{ViewPrefix}/Details";
-    protected virtual string CreateView => $"{ViewPrefix}/Create";
-    protected virtual string DeleteView => $"{ViewPrefix}/Delete";
-    protected virtual string EditView => $"{ViewPrefix}/Edit";
+    protected virtual string DetailsView => $"Details";
+    protected virtual string CreateView => $"Create";
+    protected virtual string DeleteView => $"Delete";
+    protected virtual string EditView => $"Edit";
 
     protected BaseCRUDController(IGenericData<TEntity, TKey> repository)
     {

@@ -1,6 +1,6 @@
 ﻿namespace DemoMVC.Core.Interfaces;
 
-public interface IGenericData<TEntity, TKey> where TEntity : class, IGenericEntity<TKey>, new()
+public interface IGenericData<TEntity, TKey> where TEntity : class, IEntity<TKey>, new()
 {
     Task<IEnumerable<TEntity>> GetAllAsync();
 
