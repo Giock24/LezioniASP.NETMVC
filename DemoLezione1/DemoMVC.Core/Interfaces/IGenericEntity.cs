@@ -10,7 +10,7 @@ public interface IGenericEntity<T>
 {
     T Id { get; set; }
 
-    string Nome { get; set; }
+    string? Nome { get; set; }
 
-    string Cognome { get; set; }
+    string? Cognome { get; set; }
 }

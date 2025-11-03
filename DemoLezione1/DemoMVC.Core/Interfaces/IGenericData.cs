@@ -1,16 +1,16 @@
 ﻿namespace DemoMVC.Core.Interfaces;
 
-public interface IGenericData<T> where T : IGenericEntity<int>
+public interface IGenericData<TEntity, TKey> where TEntity : class, IGenericEntity<TKey>, new()
 {
-    IEnumerable<T> GetAll(string orderBy);
+    Task<IEnumerable<TEntity>> GetAllAsync();
 
-    T? Get(int id);
+    Task<TEntity?> GetByIdAsync(TKey id);
 
-    void Create(T item);
+    Task CreateAsync(TEntity item);
 
-    void Delete(int id);
+    Task DeleteAsync(TKey id);
 
-    void Edit(T item);
+    Task EditAsync(TEntity item);
 
-    string GetLastInserted();
+    // string GetLastInserted();
 }
