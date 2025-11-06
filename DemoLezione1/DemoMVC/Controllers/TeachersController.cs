@@ -1,36 +1,13 @@
-﻿using DemoMVC.Core.Entities;
+﻿using DemoMVC.Controllers;
+using DemoMVC.Core.Entities;
 using DemoMVC.Core.Interfaces;
-using Microsoft.AspNetCore.Mvc;
 
-namespace DemoMVC.Controllers;
-
-public class TeachersController : Controller
+public class TeachersController : BaseCRUDController<Teacher, int>
 {
-    private readonly IGenericData<Teacher> genericData;
-
-    public TeachersController(IGenericData<Teacher> genericData)
+    public TeachersController(IGenericData<Teacher, int> repository) : base(repository)
     {
-        this.genericData = genericData;
+
     }
 
-    [HttpGet]
-    public IActionResult Index()
-    {
-        return View(genericData.GetAll("Cognome"));
-        //return View(studentsData.GetAll(configuration["OrdinamentoStudenti"] ?? "Cognome"));
-    }
 
-    [HttpGet]
-    public IActionResult Create()
-    {
-        return View(new Teacher { Id = 1 });
-    }
-
-    [HttpPost]
-    public IActionResult Create(Teacher teacher)
-    {
-        genericData.Create(teacher);
-
-        return RedirectToAction("Index", "Teachers");
-    }
 }

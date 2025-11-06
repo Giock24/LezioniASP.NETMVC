@@ -1,69 +1,83 @@
-﻿using DemoMVC.Core.Interfaces;
+﻿//using DemoMVC.Core.Interfaces;
 
-namespace DemoMVC.Infrastructure.Services;
+//namespace DemoMVC.Infrastructure.Services;
 
-public class GenericMockData<T> : IGenericData<T> where T : IGenericEntity<int>
-{
-    private static List<T> list = new List<T>();
+//public class GenericMockData<TEntity, TKey> : IGenericData<TEntity, TKey> where TEntity : class, IGenericEntity<TKey>, new()
+//{
+//    private static List<TEntity> list = new List<TEntity>();
 
-    public void Create(T item)
-    {
-        if (list.Count() > 0)
-        {
-            item.Id = list.Max(x => x.Id) + 1;
-        }
-        else
-        {
-            item.Id = 1;
-        }
+//    public async Task CreateAsync(TEntity item)
+//    {
+//        await Task.Delay(100); // Simula un'operazione asincrona
+//        //if (list.Count() > 0)
+//        //{
+//        //    var x = list.LastOrDefault();
+//        //    if (x != null)
+//        //    {
 
-        list.Add(item);
+//        //    }
+//        //    else
+//        //    {
+//        //        item.Id = 1;
+//        //    }
 
-        return;
-    }
+//        //    item.Id = list.LastOrDefault()?.Id + 1;
+//        //}
+//        //else
+//        //{
+//        //    item.Id = 1;
+//        //}
 
-    public void Delete(int id)
-    {
-        var item = list.Find(x => x.Id == id);
+//        list.Add(item);
+//    }
 
-        if (item != null)
-        {
-            list.Remove(item);
-        }
-    }
+//    public async Task DeleteAsync(TKey id)
+//    {
+//        await Task.Delay(100); // Simula un'operazione asincrona
+//        //var item = list.Find(x => x.Id == id);
 
-    public void Edit(T item)
-    {
-        var itemDatabase = list.Find(x => x.Id == item.Id);
+//        //if (item != null)
+//        //{
+//        //    list.Remove(item);
+//        //}
+//    }
 
-        if (itemDatabase != null)
-        {
-            list.Remove(itemDatabase);
-            list.Add(item);
-        }
-    }
+//    public async Task EditAsync(TEntity item)
+//    {
+//        await Task.Delay(100); // Simula un'operazione asincrona
+//        //var itemDatabase = list.Find(x => x.Id == item.Id);
 
-    public T? Get(int id)
-    {
-        return list.Find(x => x.Id == id);
-    }
+//        //if (itemDatabase != null)
+//        //{
+//        //    list.Remove(itemDatabase);
+//        //    list.Add(item);
+//        //}
+//    }
 
-    public IEnumerable<T> GetAll(string orderBy)
-    {
-        return list;
-    }
+//    public async Task<TEntity?> GetByIdAsync(TKey id)
+//    {
+//        await Task.Delay(100); // Simula un'operazione asincrona
+//        //return list.Find(x => x.Id == id);
+//        return new TEntity();
+//    }
 
-    public string GetLastInserted()
-    {
-        var lastItem = list.OrderByDescending(x => x.Id).FirstOrDefault();
+//    public async Task<IEnumerable<TEntity>> GetAllAsync()
+//    {
+//        await Task.Delay(100); // Simula un'operazione asincrona
+//        return list;
+//    }
 
-        if (lastItem != null)
-        {
-            return lastItem.Nome + " " + lastItem.Cognome;
-        }
-        else
-        {
-            return "Non ci sono studenti nel database";
-        }
-    }
-}
+//    //public string GetLastInserted()
+//    //{
+//    //    var lastItem = list.OrderByDescending(x => x.Id).FirstOrDefault();
+
+//    //    if (lastItem != null)
+//    //    {
+//    //        return lastItem.Nome + " " + lastItem.Cognome;
+//    //    }
+//    //    else
+//    //    {
+//    //        return "Non ci sono studenti nel database";
+//    //    }
+//    //}
+//}

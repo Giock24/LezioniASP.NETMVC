@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoMVC.Core.Interfaces;
 
-public interface IEntity
+public interface IEntity<TKey>
 {
-    int Id { get; set; }
+    TKey Id { get; set; }
 }
