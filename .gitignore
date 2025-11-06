@@ -1,64 +1,75 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
-
-# Visual Studio
+####################################
+# Visual Studio generated files
+####################################
 .vs/
-*.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Build output
+####################################
+# Build output directories
+####################################
 bin/
 obj/
+out/
+
+####################################
+# ASP.NET Core static web assets
+####################################
+**/wwwroot/staticwebassets/
+**/staticwebassets.build.json
+**/staticwebassets.development.json
+**/staticwebassets.pack.json
+**/staticwebassets.runtime.json
+**/staticwebassets/
+
+####################################
+# Temporary files and caches
+####################################
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.tmp
+*.db
+*.db-shm
+*.db-wal
+
+####################################
+# Razor and editor config
+####################################
+*.RazorAssemblyInfo.*
+*.GeneratedMSBuildEditorConfig.*
+
+####################################
+# NuGet generated files
+####################################
+project.lock.json
+project.fragment.lock.json
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
+project.assets.json
+project.nuget.cache
+artifacts/
+
+####################################
+# Rider / JetBrains IDE
+####################################
+.idea/
+
+####################################
+# OS-specific
+####################################
+.DS_Store
+Thumbs.db
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
