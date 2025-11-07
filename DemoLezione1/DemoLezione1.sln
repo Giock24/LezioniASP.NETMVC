@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVC.Core", "DemoMVC.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVC.Infrastructure", "DemoMVC.Infrastructure\DemoMVC.Infrastructure.csproj", "{F4EAE741-B8BE-4FC3-B00F-90EC1DAA7C44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVC.Data", "DemoMVC.Data\DemoMVC.Data.csproj", "{15AE1AB9-A4D0-49F1-AB7E-99C15FD1CF29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F4EAE741-B8BE-4FC3-B00F-90EC1DAA7C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4EAE741-B8BE-4FC3-B00F-90EC1DAA7C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4EAE741-B8BE-4FC3-B00F-90EC1DAA7C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AE1AB9-A4D0-49F1-AB7E-99C15FD1CF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AE1AB9-A4D0-49F1-AB7E-99C15FD1CF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AE1AB9-A4D0-49F1-AB7E-99C15FD1CF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AE1AB9-A4D0-49F1-AB7E-99C15FD1CF29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
