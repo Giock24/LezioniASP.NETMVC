@@ -20,3 +20,36 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.riga {
+    display: flex;
+    gap: 20px;
+    /* centra orizzontalmente l’intera riga se vuoi */
+    justify-content: flex-start; /* oppure center */
+    align-items: flex-start; /* allinea i box in alto */
+}
+
+.quadrato {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 10px;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.blu {
+    background-color: blue;
+}

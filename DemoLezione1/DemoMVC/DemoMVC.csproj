@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DemoMVC.Core\DemoMVC.Core.csproj" />
+    <ProjectReference Include="..\DemoMVC.Data\DemoMVC.Data.csproj" />
     <ProjectReference Include="..\DemoMVC.Infrastructure\DemoMVC.Infrastructure.csproj" />
   </ItemGroup>
 
