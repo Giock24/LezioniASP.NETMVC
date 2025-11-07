@@ -1,4 +1,5 @@
-﻿@model IEnumerable<DemoMVC.Core.DTO.CategoriaDTO>
+﻿@using DemoMVC.Core.DTO;
+@model IEnumerable<DemoMVC.Core.DTO.CategoriaDTO>
 
 @{
     ViewData["Title"] = "Index";
@@ -38,7 +39,7 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Descrizione)
-                </td>
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.NumeroProdotti)
             </td>

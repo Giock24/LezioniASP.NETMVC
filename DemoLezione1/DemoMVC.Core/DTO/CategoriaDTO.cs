@@ -1,4 +1,6 @@
-﻿namespace DemoMVC.Core.DTO;
+﻿
+
+namespace DemoMVC.Core.DTO;
 
 public class CategoriaDTO
 {
@@ -6,7 +8,7 @@ public class CategoriaDTO
 
     public string Nome { get; set; } = "No nome";
 
-    public string? Descrizione { get; set; }
+    public string? Descrizione { get; set; } 
 
     public int NumeroProdotti { get; set; }
 }
