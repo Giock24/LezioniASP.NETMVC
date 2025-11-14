@@ -4,18 +4,11 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Details @Model.CustomerId </h1>
 
 <div>
-    <h4>CustomerDetailsViewModel</h4>
-    <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CustomerId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CustomerId)
-        </dd>
+        
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CompanyName)
         </dt>
@@ -46,13 +39,59 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Phone)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GrandTotal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GrandTotal)
+        </dd>
+        <dt class="col-sm-2">
+            Favourite Product
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FavouriteProduct)
+        </dd>
     </dl>
 </div>
 
-@foreach (var order in Model.Orders)
-{
-    <p> @order.OrderId </p>
-}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Order Id
+            </th>
+            <th>
+                Order Date
+            </th>
+            <th>
+                Total Amount
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => order.OrderId)
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem => order.OrderDate?.ToShortDateString()  ) *@
+                    @(order.OrderDate?.ToShortDateString() ?? "")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => order.TotalAmount)
+                </td>
+                <td>
+                    @* @Html.ActionLink("Edit", "Edit", new { id = order.OrderId }) | *@
+                    @* @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ }) *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 <div>
     @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |

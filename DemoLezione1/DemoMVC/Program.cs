@@ -14,7 +14,7 @@ builder.Services.AddScoped<IMenu, MenuService>();
 builder.Services.AddScoped<IGenericData<Student, int>, StudentService>();
 builder.Services.AddScoped<IGenericData<Teacher, int>, TeacherService>();
 builder.Services.AddScoped<IGenericData<Fattura, Guid>, FattureService>();
-builder.Services.AddScoped<ICustomerData, CustomerMockService>();
+builder.Services.AddScoped<ICustomerData, CustomerDatabaseService>();
 builder.Services.AddScoped<ISpecialData, MockSpecialData>();
 builder.Services.AddDbContext<NorthwindContext>(options => { options.UseSqlServer(builder.Configuration.GetConnectionString("NorthwindConnectionString")); });
 builder.Services.AddScoped<IDashboard, DashboardService>();

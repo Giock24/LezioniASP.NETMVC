@@ -17,6 +17,8 @@ public class CustomerMockService : ICustomerData
             City = "Metropolis",
             Country = "Fictionland",
             Phone = "123-456-7890",
+            GrandTotal = 80000,
+            FavouriteProduct = "",
             Orders = new List<OrderDetailsViewModel>
             {
                 new OrderDetailsViewModel
