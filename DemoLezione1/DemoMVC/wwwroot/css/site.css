@@ -53,3 +53,21 @@ body {
 .blu {
     background-color: blue;
 }
+
+.square {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+
+    .square.current {
+        background-color: green;
+    }
+
+

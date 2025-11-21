@@ -14,6 +14,7 @@ public static class DemoExtensions
 
         return category;
     }
+
     public static CategoriaModificaDTO ConvertToCategoriaEditDTO(this Category category)
     {
         var categoriaModificaDTO = new CategoriaModificaDTO();
@@ -23,5 +24,21 @@ public static class DemoExtensions
         categoriaModificaDTO.Descrizione = category.Description;
 
         return categoriaModificaDTO;
+    }
+
+    public static List<CategoriaDTO> ConvertiInListaDTO(this List<Category> categories)
+    {
+        var categorieDTO = new List<CategoriaDTO>();
+
+        foreach (var category in categories)
+        {
+            var categoriaDTO = new CategoriaDTO();
+            categoriaDTO.Id = category.CategoryId;
+            categoriaDTO.Nome = category.CategoryName;
+            categoriaDTO.Descrizione = category.Description;
+            categorieDTO.Add(categoriaDTO);
+        }
+
+        return categorieDTO;
     }
 }
