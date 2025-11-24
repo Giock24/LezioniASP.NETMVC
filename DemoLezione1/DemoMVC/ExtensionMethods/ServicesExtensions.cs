@@ -1,9 +1,13 @@
 ﻿using DemoMVC.Core.Entities;
 using DemoMVC.Core.Interfaces;
 using DemoMVC.Data.Models;
+using DemoMVC.Infrastructure.RandomUser;
+using DemoMVC.Infrastructure.RandomUser.Interfaces;
 using DemoMVC.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Polly;
+using static System.Net.WebRequestMethods;
 
 namespace DemoMVC.ExtensionMethods;
 
@@ -26,5 +30,14 @@ public static class ServicesExtensions
         services.AddScoped<IData<Product>, EntityFrameworkCoreRepository<Product>>();
         services.AddScoped<IData<Order>, EntityFrameworkCoreRepository<Order>>();
         services.AddScoped<IOrderData, OrdersService>();
+        services.AddScoped<IRandomUserData, RandomUserService>();
+
+        services.AddHttpClient("RandomUser.Me", o =>
+        {
+            o.BaseAddress = new Uri("https://randomuser.me/");
+        })
+        .AddTransientHttpErrorPolicy(policy =>
+            policy.WaitAndRetryAsync(retryCount: 3,
+                 sleepDurationProvider: retry => TimeSpan.FromSeconds(Math.Pow(2, retry))));
     }
 }

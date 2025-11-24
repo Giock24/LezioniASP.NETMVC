@@ -1,0 +1,20 @@
+﻿@model DemoMVC.Infrastructure.RandomUser.Models.RandomUserResponse
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Random Users Data</h1>
+
+@if(Model is not null && Model.results is not null)
+{
+    @foreach (var user in Model.results)
+    {
+        <div>
+            <label>@user.email @user.name?.first  @user.name?.last</label>
+            <img src="@user.picture.medium" />
+        </div>
+
+    }
+}
+
