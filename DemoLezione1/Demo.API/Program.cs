@@ -39,6 +39,7 @@ app.MapGet("/categories/{id}", async (NorthwindContext context, int id) => {
     if (category is null) return Results.NotFound();
     return Results.Ok(new CategoriaDTO
     {
+        // commento di prova
          Id = id, Descrizione = category.Description,
          Nome = category.CategoryName, NumeroProdotti =category.Products.Count()
     });
