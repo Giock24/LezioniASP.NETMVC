@@ -1,8 +1,9 @@
-﻿namespace DemoAPI.Products.Extensions;
+﻿using Microsoft.Extensions.Caching.Memory;
+
+namespace DemoAPI.Products.Extensions;
 
 public static class ProductsEndpoints
 {
-
     private static async Task<IResult> GetById(NorthwindContext context, int id)
     {
         var product = await context.Products.FirstOrDefaultAsync(c => c.ProductId == id);
@@ -17,9 +18,11 @@ public static class ProductsEndpoints
         });
     }
 
-    private static async Task<IResult> GetAll(NorthwindContext context)
+    private static async Task<IResult> GetAll(NorthwindContext context, IMemoryCache memoryCache)
     {
-        var products = await context.Products
+        if (!memoryCache.TryGetValue("Products", out List<ProdottoDTO>? listaProdotti))
+        {
+            listaProdotti = await context.Products
             .Select(c => new ProdottoDTO
             {
                 Id = c.ProductId,
@@ -28,7 +31,13 @@ public static class ProductsEndpoints
                 CategoriaId = c.CategoryId,
                 PrezzoUnitario = c.UnitPrice
             }).ToListAsync();
-        return Results.Ok(products);
+
+            var cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromHours(1));
+
+            memoryCache.Set("Products", listaProdotti, cacheEntryOptions);
+        }
+
+        return Results.Ok(listaProdotti);
     }
 
     private static async Task<IResult> Create(NorthwindContext context, ProdottoCreaDTO nuovoProdotto)
@@ -37,7 +46,8 @@ public static class ProductsEndpoints
         {
             ProductName = nuovoProdotto.Nome,
             SupplierId = nuovoProdotto.FornitoreId,
-            CategoryId = nuovoProdotto.CategoriaId
+            CategoryId = nuovoProdotto.CategoriaId,
+            UnitPrice = nuovoProdotto.PrezzoUnitario
         };
         context.Products.Add(product);
         await context.SaveChangesAsync();
@@ -68,7 +78,7 @@ public static class ProductsEndpoints
 
     private static async Task<IResult> Put(NorthwindContext context, int id, ProdottoModificaDTO prodottoModificato)
     {
-        var productToEdit = await context.Products.FindAsync(id);
+        var productToEdit = await context.Products.Include(x => x.Supplier).FirstOrDefaultAsync(x => x.ProductId == id);
         if (productToEdit is null)
         {
             return Results.NotFound();
@@ -86,6 +96,10 @@ public static class ProductsEndpoints
             if (prodottoModificato.CategoriaId.HasValue)
             {
                 productToEdit.CategoryId = prodottoModificato.CategoriaId.Value;
+            }
+            if (prodottoModificato.PrezzoUnitario.HasValue)
+            {
+                productToEdit.UnitPrice = prodottoModificato.PrezzoUnitario.Value;
             }
             await context.SaveChangesAsync();
             return Results.NoContent();

@@ -11,3 +11,19 @@
     <div class="quadrato rosso">Prodotti: @Model.NumeroProdotti</div>
     <div class="quadrato blu">Ultima categoria creata:<br>@Model.UltimaCategoriaCreata</div>
 </div>
+
+<div id="DivCategories">
+
+</div>
+
+@section Scripts {
+    <script>
+        $.getJSON("https://localhost:7155/categories", (categories) => {
+            console.log(categories);
+
+            var totale = categories.length;
+
+            $("#DivCategories").append(totale);
+        });
+    </script>
+}

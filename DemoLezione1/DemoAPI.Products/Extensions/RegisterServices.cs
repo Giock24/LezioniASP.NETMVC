@@ -13,6 +13,7 @@ public static class RegisterServices
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
         services.AddDbContext<NorthwindContext>(options => { options.UseSqlServer(configuration.GetConnectionString("NorthwindConnectionString")); });
+        services.AddMemoryCache();
 
         return services;
     }

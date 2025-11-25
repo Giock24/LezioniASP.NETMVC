@@ -13,6 +13,13 @@ public static class RegisterServices
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
         services.AddDbContext<NorthwindContext>(options => { options.UseSqlServer(configuration.GetConnectionString("NorthwindConnectionString")); });
+        services.AddCors(options =>
+        {
+            options.AddPolicy("CategoriesPolicy", policy =>
+            {
+                policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+            });
+        });
 
         return services;
     }

@@ -14,6 +14,8 @@ public static class MiddlewareExtensions
 
         app.UseHttpsRedirection();
 
+        app.UseCors("CategoriesPolicy");
+
         app.RegisterCategoriesEndpoint();
 
     }

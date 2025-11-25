@@ -6,6 +6,7 @@ using DemoMVC.Infrastructure.RandomUser.Interfaces;
 using DemoMVC.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Polly;
 using static System.Net.WebRequestMethods;
 
@@ -31,13 +32,25 @@ public static class ServicesExtensions
         services.AddScoped<IData<Order>, EntityFrameworkCoreRepository<Order>>();
         services.AddScoped<IOrderData, OrdersService>();
         services.AddScoped<IRandomUserData, RandomUserService>();
+        services.AddScoped<IProductsApiData, ProductApiService>();
+        services.AddScoped<ICategoriesApiData, CategoryApiService>();
 
         services.AddHttpClient("RandomUser.Me", o =>
         {
-            o.BaseAddress = new Uri("https://randomuser.me/");
+            o.BaseAddress = new Uri(configuration["RandomUserBaseAdress"] ?? "");
         })
         .AddTransientHttpErrorPolicy(policy =>
             policy.WaitAndRetryAsync(retryCount: 3,
                  sleepDurationProvider: retry => TimeSpan.FromSeconds(Math.Pow(2, retry))));
+
+        services.AddHttpClient("ProductsApi", o =>
+        {
+            o.BaseAddress = new Uri(configuration["ProductsApiBaseAdress"] ?? "");
+        });
+
+        services.AddHttpClient("CategoriesApi", o =>
+        {
+            o.BaseAddress = new Uri(configuration["CategoriesApiBaseAdress"] ?? "");
+        });
     }
 }
